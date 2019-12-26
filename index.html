@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>modern shop</title>
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/42bc809b80.js" crossorigin="anonymous"></script>
   <!-- 웹 폰트 -->
   <link href="https://fonts.googleapis.com/css?family=Belleza|Noto+Sans+KR&display=swap" rel="stylesheet">
   <!-- 공통 CSS -->
@@ -20,21 +22,29 @@
   <header id="main_header">
     <div class="container">
       <h1><a href="#">ModernShop</a></h1>
-      <nav id="main_gnb">
-        <ul>
-          <li><a href="#">about</a></li>
-          <li><a href="#">man</a></li>
-          <li><a href="#">woman</a></li>
-          <li><a href="#">shop</a></li>
+      <div class="nav_group">
+        <nav id="main_gnb">
+          <ul>
+            <li><a href="#">about</a></li>
+            <li><a href="#">man</a></li>
+            <li><a href="#">woman</a></li>
+            <li><a href="#">shop</a></li>
+          </ul>
+        </nav>
+        <nav id="util">
+          <ul>
+            <li><a href="">search</a></li>
+            <li><a href="#">log in</a></li>
+            <li>
+              <a href="#">
+                <span>cart</span>
+                <i class="fas fa-shopping-bag"></i>
+              </a>
+            </li>
         </ul>
-      </nav>
-      <nav id="util">
-        <ul>
-          <li><a href="">search</a></li>
-          <li><a href="#">log in</a></li>
-          <li><a href="#">cart</a></li>
-       </ul>
-      </nav>
+        </nav>
+      </div>
+      <button id="toggle"><i class="fas fa-bars"></i></button>
     </div>
   </header>
   <section id="title">

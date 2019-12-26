@@ -8,3 +8,12 @@
 #title .title > h2 {
   /* font-size: 36px; */
 }
+#main_header {
+  text-align: center; 
+}
+#main_header > .container {
+  padding: 10px;
+}
+#main_gnb {
+  background: #ccc;
+}

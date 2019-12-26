@@ -12,19 +12,19 @@
   position: relative;
   left: 20px; top: 20px;
 }
-#main_header > .container > #main_gnb {
+#main_header > .container #main_gnb {
   position: absolute;
   right: 220px; top: 30px;
 }
-#main_header > .container > #main_gnb li {
+#main_header > .container #main_gnb li {
   display: inline-block;
   margin-left: 1em; margin-right: 1em;
 }
-#main_header > .container > #util {
+#main_header > .container #util {
   position: absolute;
   right: 0; top: 30px;
 }
-#main_header > .container > #util li {
+#main_header > .container #util li {
   display: inline-block;
   margin-left: 1em; margin-right: 1em;
 }
@@ -34,3 +34,6 @@
 #main_gnb a:hover, #util a:hover {
   color: rgba(255,255,255, 0.7);
 } 
+
+/* 토글 메뉴, 장바구니 아이콘 비표시 */
+#toggle, #util i.fa-shopping-bag { display: none;}
