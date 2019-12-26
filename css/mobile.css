@@ -1,0 +1,10 @@
+/* mobile.css */
+.container {
+  width: 100%;
+  margin: 0 auto;
+  background: #f00 ;
+}
+
+#title .title > h2 {
+  /* font-size: 36px; */
+}
