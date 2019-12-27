@@ -74,3 +74,19 @@
 #new_product .product_list .origin_price {
 
 }
+
+/* news 섹션 */
+#news {}
+#news .container {
+  overflow: hidden;
+  outline: 1px solid red;
+}
+#news article {
+  width: 49.25%;
+  float: left;
+  margin-right: 1.5%;
+  outline: 1px solid green;
+}
+#news article:last-child {
+  margin-right: 0;
+}

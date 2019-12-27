@@ -90,3 +90,16 @@
   color: red;
   margin-right: 1em;
 }
+
+/* 이벤트 섹션 좌우 여백 줄임 */
+#event .title {
+  width: 100%;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+#news article {
+  width: 100%;
+  /* float: left; */
+  margin-right: 1.5%;
+  outline: 1px solid green;
+}

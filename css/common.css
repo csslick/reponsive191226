@@ -91,19 +91,53 @@ section {
 /* 이벤트 섹션 */
 #event {
   position: relative;
-  height: 650px;
+  height: 400px;
   background: #ccc;
   background-image: url("http://placeimg.com/1920/1080/people/grayscale");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   /* http://placeimg.com/1920/1080/people/grayscale */
 }
 #event .title {
-  width: 66%;
-  outline: 1px solid red;
+  width: 70%;
+  /* outline: 1px solid red; */
   position: absolute;
   left: 50%; top: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
   text-shadow: 1px 1px 2px rgba(0,0,0, 0.7);
+}
+
+/* news 섹션 */
+#news article {
+  height: 300px;
+  margin-bottom: 20px;
+  color: #fff;
+  display: flex; /* flex layout 설정 */
+}
+#news article {
+  align-items: center; /* 수직 중앙정렬 */
+  justify-content: center; /* 수평 중앙정렬 */
+}
+#news article h2{
+  /* outline: 1px solid red; */
+}
+#news article:first-child {
+  background-image: url("http://placeimg.com/600/300/a");
+  background-size: cover;
+  background-position: center;
+}
+#news article:last-child {
+  background-image: url("http://placeimg.com/600/300/b");
+  background-size: cover;
+  background-position: center;
+}
+
+/* bxslider */
+#sns .slider {
+  width: 100%;
+}
+.slider img {
+  /* width: 100%; */
 }
