@@ -10,8 +10,8 @@ $(function(){
   /*** SNS slider ***/
   // bx slider option
   var settings1 = {
-    minSlides: 4,
-    maxSlides: 4,
+    minSlides: 5,
+    maxSlides: 5,
     moveSlides: 1,
     slideWidth: 1920,
   };
@@ -24,11 +24,11 @@ $(function(){
   };
 
   // 최초 실행시 화면 크기별 슬라이더 칼럼수 설정
-  var width = $(window).width();  
+  var width = window.innerWidth;
   var slider;
   
   // 화면 크기가 768 보다 크면 setting1 아니면 setting2
-    (width > 768) ? 
+    (width > 767) ? 
       slider = $('#sns .slider').bxSlider(settings1) :
       slider = $('#sns .slider').bxSlider(settings2)
 
@@ -36,7 +36,7 @@ $(function(){
   $(window).resize(function(){
     width = window.innerWidth;
 
-    if(width > 800){
+    if(width > 767){
       slider.reloadSlider(settings1);
     } else {
       slider.reloadSlider(settings2);

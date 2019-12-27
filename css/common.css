@@ -85,8 +85,11 @@ section {
 .cta:hover {
   background: rgba(34,34,34, 0.9);
 }
+.bx-wrapper {
+  border: none;
+}
 
-#brand {
+#brand .container{
   /* 소개글 좌우 여백을 두어 집중하게 배치 */
   padding-left: 10%;
   padding-right: 10%;
