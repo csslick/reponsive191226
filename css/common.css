@@ -15,14 +15,24 @@ body {
   color: #666;
   /* font-family: 'Belleza', sans-serif; */
   font-family: 'Noto Sans KR', sans-serif;
+  line-height: 1.8;
 }
 h1, h2, h3, h4 {
   font-family: 'Belleza', sans-serif;
+  margin-bottom: 20px;
 }
+ins{ text-decoration: none;}
 button { 
   background: none;
   border: none;
+  outline: none;
 }
+section {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 #main_header {
   position: absolute;
   color: #fff;
@@ -35,6 +45,7 @@ button {
   background-size: cover;
   background-position: center;
   color: #fff;
+  margin-bottom: 50px;
 }
 
 #title .title {
@@ -48,4 +59,25 @@ button {
 #title .title > h2 {
   font-size: 60px;
   margin-bottom: 20px;
+}
+#title .title > p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.cta {
+  width: 140px; height: 50px;
+  background: #222222;
+  font-size: 12px;
+  line-height: 50px;
+  display: inline-block;
+  border-radius: 4px;
+}
+.cta:hover {
+  background: rgba(34,34,34, 0.9);
+}
+
+#brand {
+  /* 소개글 좌우 여백을 두어 집중하게 배치 */
+  padding-left: 10%;
+  padding-right: 10%;
 }

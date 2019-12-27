@@ -16,7 +16,7 @@
 }
 #main_header h1 { 
   position: fixed;
-  left: 50%; top: 10px;
+  left: 50%; top: 0px;
   transform: translateX(-50%);
 }
 #main_gnb {
@@ -63,9 +63,7 @@
 }
 #util .fa-shopping-bag {
   position: fixed;
-  /* top: 16; */
   right: 20px; top: 16px;
   font-size: 24px;
-  color: #fff;
-  
+  color: #fff; 
 }
