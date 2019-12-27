@@ -7,14 +7,15 @@
 
 #main_header > .container{
   position: relative;
+  font-family: 'Belleza', sans-serif; 
 }
 #main_header > .container > h1 {
   position: relative;
-  left: 20px; top: 20px;
+  left: 20px; top: 10px;
 }
 #main_header > .container #main_gnb {
   position: absolute;
-  right: 220px; top: 30px;
+  right: 250px; top: 30px;
 }
 #main_header > .container #main_gnb li {
   display: inline-block;
@@ -28,7 +29,10 @@
   display: inline-block;
   margin-left: 1em; margin-right: 1em;
 }
-#main_gnb, #util { font-size: 15px;}
+#main_gnb, #util { 
+  font-size: 15px;
+  text-transform: uppercase;
+}
 
 /* gnb hover */
 #main_gnb a:hover, #util a:hover {
@@ -44,7 +48,7 @@
 }
 #new_product .product_list {
   overflow: hidden;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 #new_product .product_list > li {
   /* width: 386.66px; */
@@ -79,7 +83,7 @@
 #news {}
 #news .container {
   overflow: hidden;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 #news article {
   width: 49.25%;
