@@ -34,7 +34,7 @@ $(function(){
 
   // 창크기 변화시 슬라이더 설정 변경
   $(window).resize(function(){
-    width = $(window).width();
+    width = window.innerWidth;
 
     if(width > 800){
       slider.reloadSlider(settings1);
