@@ -67,3 +67,23 @@
   font-size: 24px;
   color: #fff; 
 }
+
+/* 신제품 섹션 */
+#new_product ul { overflow: hidden;}
+#new_product .product_list > li {
+  width: 100%;
+  float: left;
+  margin-bottom: 50px;
+}
+#new_product .product_list > li img {
+  width: 100%;
+}
+#new_product .product_list .title {
+  display: block;
+}
+#new_product .product_list .price {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: red;
+  margin-right: 1em;
+}
